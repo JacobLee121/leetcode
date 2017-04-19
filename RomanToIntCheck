@@ -1,0 +1,7 @@
+import sys
+sys.path.append(r'/Users/lixinqiang/PyCharmProgram/twoSum/')
+import romanNum
+from romanNum import Solution
+a = Solution()
+aa = a.romanToInt("DMXI")
+print(aa)
