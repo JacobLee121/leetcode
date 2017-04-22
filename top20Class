@@ -96,6 +96,19 @@ class SoluMovZeroe(object):
                 last0+=1
 
         return nums
+        dic = {}
+        for num in nums:
+            dic[num] = dic.get(num,0)+1
+        dic1 = sorted(dic.items(), key = lambda d:d[1],reverse = True)#key -value 的list
+        result = []
+        j = 0
+        for data in dic1:
+            result.append(data[0])
+            j +=1
+            if j == k:
+                break
+        return result
+
 
 
 
