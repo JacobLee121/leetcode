@@ -32,3 +32,9 @@ d = SoluMovZeroe()
 l2 = [99,0,0,0,1,2,3,5,0]
 dd = d.moveZeroes(l2)
 print(dd,"ddd")
+#############################
+TopK = SolutionTopKFre()
+l2 = [1,1,1,2,2,3,2,4,5,8,8]
+k=2
+resultTopK = TopK.topKFrequent(l2,k)
+print('resultTopK','l2','k',resultTopK,l2,k)
